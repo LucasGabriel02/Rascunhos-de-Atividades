@@ -1,0 +1,79 @@
+# Projeto de Estrutura de Dados
+
+
+def Program():
+
+    
+
+    Clientes = ["Joao"]
+
+    cont = 0
+
+    # Imprimir Menu        
+
+    def Menu():
+
+        print(" \n\n------------------ Menu ------------------")
+
+        print(" 1 - Usuário Comum  ")
+
+        print(" 2 - Gestor de Recurso")
+
+        print(" 3 - Coordenador")
+
+        print(" 4 - Login")
+
+        print(" 0 - Sair do programa\n")
+
+    
+
+    # Verificação e adição de item
+
+
+
+    #Usuário Comum
+    def Usuário Comum():
+
+        print(" Vamos fazer o Cadastro")
+
+        NovoCliente = input(" Digite seu NOME: ")
+        NovoCliente = input("Digite sua MATRICULA: ")
+        NovoCliente = input("Digite sua SENHA: ")
+
+        #indice = Clientes.index(NovoCliente)
+
+        if (NovoCliente in Clientes):
+
+            print("Esse clinte já esta cadastrado!")
+
+        else:
+
+            Clientes.append(NovoCliente)
+
+            print("Cliente cadastrado!")
+
+
+    def Login():
+        print('Você está Acessando sua Conta')
+
+        login = input(" Digite seu NOME: ")
+        login = input("Digite sua SENHA: ")
+
+        if (login in Clientes):
+
+            print(Você está Logado)
+        else:
+            print('Login não Encontrado! ')
+
+
+    # Gestor de Recurso
+
+    def Gestor de Recurso():
+
+        print(" Exibir lista de Recurso:")
+
+        #Clientes.soft()
+
+        for I in (Clientes):
+
+            print(I)
