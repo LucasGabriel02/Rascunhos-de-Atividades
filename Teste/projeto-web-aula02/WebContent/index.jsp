@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Projeto Web Aula 02</title>
+<title>Projeto Web </title>
 </head>
 <body>
 	<div align="center">
