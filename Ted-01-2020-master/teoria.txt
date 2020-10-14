@@ -1,0 +1,11 @@
+Resposta do TED
+Aluno: Lucas Gabriel
+Curso: Sistemas p/ Internet
+
+
+1º)Sim, é uma Herança pois as 3 primeiras regras já comprava que é uma herança. 
+Com isso as demais Classe estão herdando da Classe PAI.
+
+2º) A) Vai está em uma classe dentro do projeto.
+B) Vai ser uma classe que você vai criar e que vai servir de interface para atribuir nos seus métodos.
+C) Através de um Main.
